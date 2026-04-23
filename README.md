@@ -16,5 +16,5 @@ cp -r jjj-skills/skills/* ~/.claude/skills/
 
 | skill | 说明 | 触发词 |
 |-------|------|--------|
-| [biz-service-design](./skills/biz-service-design/) | 服务设计思想实验，帮你系统化分析商业想法：顾客旅程痛点、服务蓝图、收益模型、平台策略 | "帮我做服务设计"、"分析一下这个商业模式"、"这个想法怎么落地" |
+| [JJJ-biz-service-design](./skills/JJJ-biz-service-design/) | 服务设计思想实验，帮你系统化分析商业想法：顾客旅程痛点、服务蓝图、收益模型、平台策略 | "帮我做服务设计"、"分析一下这个商业模式"、"这个想法怎么落地" |
 
