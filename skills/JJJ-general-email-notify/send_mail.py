@@ -23,8 +23,8 @@ def get_html_template(subject, body, caller):
     # 获取当前时间
     now = datetime.now().strftime("%Y年%m月%d日 %H:%M")
 
-    # 处理换行：将换行符转换为HTML换行
-    body_html = body.replace('\n', '<br>')
+    # 处理换行：支持 \n 字符串和真实换行符
+    body = body.replace('\\n', '\n').replace('<br>', '\n')
 
     # 处理列表：如果内容中有 - 或 • 开头的行，转换为li
     lines = body.split('\n')
