@@ -129,49 +129,50 @@ curl -s -X POST http://localhost:8000/api/v1/keywords/search \
 
 **注意**：每次搜索之间间隔1-2秒，避免被Google限制。
 
-### 第4步：计算KGR
+### 第4步：计算KGR和KDRoi
 
 ```python
 KGR = allintitle结果数 / 月搜索量
+KDRoi = (月搜索量 x CPC) / KD
 ```
 
 ### 第5步：可视化输出
 
-输出**两个表格**：
+输出**三个表格**：
 
 #### 表格1：全部调研结果（按KGR升序）
 ```
 # KGR调研结果 [日期]
 
-| 关键词 | 月搜索量 | CPC | Zero Click% | Allintitle | KGR | 评估 |
-|--------|----------|-----|-----------|----------|-----|------|
-| xxx    | xxx      | xxx | xxx      | xxx      | x  | xxx  |
+| 关键词 | 月搜索量 | CPC | KD | Zero Click% | Allintitle | KGR | KDRoi | 评估 |
+|--------|----------|-----|-----|-----------|----------|-----|------|------|
+| xxx    | xxx      | xxx | xxx | xxx      | xxx      | x  | xxx  | xxx  |
 ```
 
-#### 表格2：值得做的关键词
-
-首先筛选KGR < 0.1的词，然后分别按两种方式排序显示：
+#### 表格2：值得做的关键词（KGR < 0.1）
 
 **按KGR升序**（最值得做的优先）：
 ```
 ## 值得做（按KGR）
 
-| 关键词 | 月搜索量 | CPC | Zero Click% | Allintitle | KGR |
-|--------|----------|-----|-----------|----------|-----|
-| xxx    | xxx      | xxx | xxx      | xxx      | x  |
+| 关键词 | 月搜索量 | CPC | KD | Allintitle | KGR | KDRoi |
+|--------|----------|-----|-----|----------|-----|------|------|
+| xxx    | xxx      | xxx | xxx | xxx      | x  | xxx  |
 ```
 
-**按月搜索量降序**（流量大的优先）：
+**按KDRoi降序**（商业价值优先）：
 ```
-## 值得做（按月搜索量）
+## 值得做（按KDRoi）
 
-| 关键词 | 月搜索量 | CPC | Zero Click% | Allintitle | KGR |
-|--------|----------|-----|-----------|----------|-----|
-| xxx    | xxx      | xxx | xxx      | xxx      | x  |
+| 关键词 | 月搜索量 | CPC | KD | Allintitle | KGR | KDRoi |
+|--------|----------|-----|-----|----------|-----|------|
+| xxx    | xxx      | xxx | xxx | xxx      | x  | xxx  |
 ```
 
 **字段说明**：
 - `CPC`：每次点击成本（美元）
+- `KD`：Keyword Difficulty，关键词优化难度 (0-100)
+- `KDRoi`：(搜索量 × CPC) / KD，商业价值/竞争难度比值，越高越值得做
 - `Zero Click%`：零点击搜索量占比（越高说明用户越看完就走）
 
 ---
