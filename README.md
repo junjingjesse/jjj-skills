@@ -23,4 +23,5 @@ cp -r jjj-skills/skills/* ~/.claude/skills/
 | [JJJ-writing-storytelling](./skills/JJJ-writing-storytelling/) | 故事创作工具，教你构建情节、塑造人物、描写场景 | 写小说、写作技巧 |
 | [JJJ-seo-kgr-search](./skills/JJJ-seo-kgr-search/) | SEO关键词KGR调研，筛选月搜索量与allintitle比例低的值得做词汇 | kgr搜索、kgr调研 |
 | [JJJ-seo-competitor-analysis](./skills/JJJ-seo-competitor-analysis/) | SEO竞品分析，用关键词分析Google首页竞争对手网站状况 | seo竞争分析、关键词竞争 |
+| [JJJ-seo-painpoint-research](./skills/JJJ-seo-painpoint-research/) | SEO痛点采集，多平台收集用户真实痛点与吐槽 | 痛点采集、用户反馈调研 |
 
