@@ -8,6 +8,36 @@
 
 ---
 
+## 技能命名规范
+
+### 格式结构
+```
+JJJ-分类-技能名
+```
+
+| 层级 | 说明 | 示例 |
+|------|------|------|
+| 前缀 | JJJ品牌（大写） | JJJ |
+| 分类 | 技能所属领域 | seo, design, writing |
+| 技能名 | 具体技能名称 | kgr-search, competitor-analysis |
+
+### 常用分类
+
+| 分类 | 说明 |
+|------|------|
+| seo | SEO相关技能 |
+| design | 设计相关技能 |
+| writing | 写作相关技能 |
+| biz | 商业相关技能 |
+| general | 通用工具 |
+
+### 示例
+- `JJJ-seo-kgr-search` = JJJ + seo(SEO) + kgr-search(KGR搜索)
+- `JJJ-seo-competitor-analysis` = JJJ + seo(SEO) + competitor-analysis(竞品分析)
+- `JJJ-design-basics` = JJJ + design(设计) + basics(基础)
+
+---
+
 ## 技能描述规范（创建新技能时）
 
 ### 两层描述结构
