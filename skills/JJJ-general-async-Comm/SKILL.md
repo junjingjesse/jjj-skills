@@ -1,6 +1,7 @@
 ---
 name: JJJ-general-async-comm
-description: "异步沟通初始化与管理技能。给一个文件夹路径，帮他创建异步沟通所需的标准文档结构（USER.md/TASK.md/Q&A.md），并引导用户设置定时任务。触发 when user says '初始化异步沟通'、'帮我创建async_comm'、'设置监督任务'。"
+description: "异步沟通管理，创建USER/TASK/Q&A文档结构"
+trigger: "初始化异步沟通","async_comm","设置监督"
 ---
 
 # JJJ-general-async-comm 异步沟通初始化技能

@@ -1,6 +1,7 @@
 ---
 name: JJJ-design-brand
-description: "品牌设计技能，包含从品牌概念到视觉身份系统的完整流程。触发 when user says '帮我做品牌'、'帮我做个logo'、'帮我设计品牌指南'。"
+description: "品牌设计，从概念到视觉身份系统的完整流程"
+trigger: "做品牌","logo设计","品牌指南"
 ---
 
 # JJJ-design-brand 品牌设计技能

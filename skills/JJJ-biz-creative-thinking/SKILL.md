@@ -1,6 +1,7 @@
 ---
 name: JJJ-biz-creative-thinking
-description: "创新思维生成工具。当用户提供一个灵感或问题，帮他使用各种创意工具生成大量idea，并进行筛选评估。触发 when user says '帮我发散一下'、'这个想法能延伸多少'、'有没有更多idea'、'头脑风暴'、'帮我创新'。"
+description: "创新思维工具，用多种方法帮你生成大量创意并筛选评估"
+trigger: "帮我发散","头脑风暴","创新","更多idea"
 ---
 
 # 创新思维生成工具

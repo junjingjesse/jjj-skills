@@ -1,6 +1,7 @@
 ---
 name: JJJ-design-basics
-description: "平面设计基础技能，包含图像、文字、形状、颜色四大元素、排版技巧、构图方法及设计历史流派。触发 when user says '帮我做个海报'、'帮我做个传单'、'帮我设计个封面'。"
+description: "平面设计基础，图像文字形状颜色四大元素与构图技巧"
+trigger: "做个海报","设计传单","设计封面"
 ---
 
 # JJJ-design-basics 平面设计基础技能

@@ -1,6 +1,7 @@
 ---
 name: JJJ-seo-kgr-search
-description: "SEO KGR关键词调研工具。基于Key Golden Resources方法论，对用户指定的日期自动从API获取符合条件的关键词列表，然后逐个查询Google allintitle数据，计算KGR比例（越低越值得做）。触发when user says 'kgr搜索'、'/kgr'、'kgr调研'、'seo关键词调研'。"
+description: "SEO关键词KGR调研，筛选月搜索量与allintitle比例低的值得做词汇"
+trigger: "kgr搜索","kgr调研","seo关键词调研"
 ---
 
 # SEO KGR关键词调研工具

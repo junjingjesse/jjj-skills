@@ -1,6 +1,7 @@
 ---
 name: JJJ-general-email-notify
-description: "通用邮件通知工具。被其他JJJ技能调用发送通知邮件，支持自定义主题、正文、调用者名称。触发 当其他JJJ技能完成任务后需要发送邮件通知时调用此技能。"
+description: "邮件通知工具，被其他技能调用发送邮件"
+trigger: "发邮件","通知我"
 ---
 
 # 通用邮件通知工具
