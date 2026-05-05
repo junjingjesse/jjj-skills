@@ -227,15 +227,21 @@ trigger: "初始化异步沟通","async_comm","设置监督"
 - `cron`: "*/5 * * * *"
 - `prompt`: 异步沟通任务执行的完整流程（见下方模板）
 - `recurring`: true
+- **durable**: true（写入 `.claude/scheduled_tasks.json`，跨会话保留）
 
 ```json
 {
   "id": "项目ID",
   "cron": "*/5 * * * *",
   "prompt": "异步沟通任务执行：\n\n## 回归测试：\n1. 检查 async_comm/REGRESSION.md 存在\n2. 逐项执行回归测试，更新状态\n3. 如有问题记录到 REGRESSION.md 的修复记录\n\n## 任务流程：\n1. 读取 async_comm/TASK.md 获取当前任务清单，将已完成任务归档到archive文件夹，重新用占位符补好位置\n2. 找到第一个状态为⬜的任务\n3. 按验收标准实现该任务\n4. 用web-access验证（必须实际点击）\n5. 完成后更新状态为✅\n6. 输出：完成的任务/验收标准\n\n## Q&A记录：\n有任何新的想法，一定要去思考和延伸，虽然不在本次TASK中，但不代表后面不会做，务必把他们依次记录到async_comm/Q&A.md，给用户更多探索机会，同时当遇到任何不确定的问题，记录到 async_comm/Q&A.md 的\"待回答问题\"表\n格式：日期 + 阶段 + 问题描述 + 状态，\n不要猜测，有疑惑就记录到Q&A，等待用户回答\n\n## 注意：\n- 任务内容来自TASK.md，不要硬编码\n- 每次执行会自动读取最新任务\n- 遇到问题记录到Q&A.md\n- 回归测试必须每次执行",
-  "recurring": true
+  "recurring": true,
+  "durable": true
 }
 ```
+
+**说明**：
+- `durable: false`（默认）：只创建lock文件，会话结束后失效
+- `durable: true`：创建lock文件 + 写入 `.claude/scheduled_tasks.json`，7天后自动过期
 
 ---
 
