@@ -44,6 +44,9 @@ tewbooaththb@hotmail.com</td></tr>
 ## 安装
 
 ```bash
+# 安装依赖
+pip install requests
+
 # 克隆到 ~/.claude/skills/
 mkdir -p ~/.claude/skills
 cp -r jjj-skills/skills/* ~/.claude/skills/
@@ -64,4 +67,5 @@ cp -r jjj-skills/skills/* ~/.claude/skills/
 | [JJJ-seo-competitor-analysis](./skills/JJJ-seo-competitor-analysis/) | SEO竞品分析，用关键词分析Google首页竞争对手网站状况 | seo竞争分析、关键词竞争 |
 | [JJJ-seo-painpoint-research](./skills/JJJ-seo-painpoint-research/) | SEO痛点采集，多平台收集用户真实痛点与吐槽 | 痛点采集、用户反馈调研 |
 | [JJJ-seo-trends-verify](./skills/JJJ-seo-trends-verify/) | Google趋势数据验证，检测季节性/趋势方向/地域分布 | 趋势验证、谷歌趋势 |
+| [JJJ-seo-intent-analysis](./skills/JJJ-seo-intent-analysis/) | 搜索意图分析，基于Google自动补全分析搜索意图 | 意图分析、搜索意图 |
 
