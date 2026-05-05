@@ -45,12 +45,17 @@ tewbooaththb@hotmail.com</td></tr>
 
 ```bash
 # 安装依赖
-pip install requests
+pip install requests pytrends
 
 # 克隆到 ~/.claude/skills/
 mkdir -p ~/.claude/skills
 cp -r jjj-skills/skills/* ~/.claude/skills/
 ```
+
+| 依赖 | 用途技能 |
+|------|---------|
+| requests | JJJ-seo-intent-analysis, JJJ-seo-trends-verify |
+| pytrends | JJJ-seo-trends-verify |
 
 ## 技能列表
 
