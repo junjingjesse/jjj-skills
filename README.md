@@ -19,11 +19,23 @@
 
 ## 联系我
 
-| 平台 | 联系方式 |
-|------|---------|
-| 微信公众号 | <img src="README.assets/GZH-QRcode.jpg" width="150" /> |
-| 知识星球 | <img src="README.assets/zsxq.jpg" width="150" /> |
-| Email | tewbooaththb@hotmail.com |
+<table>
+<tr><td align="center">
+
+微信公众号</td><td align="center">
+
+<img src="README.assets/GZH-QRcode.jpg" width="200" /></td></tr>
+<tr><td align="center">
+
+知识星球</td><td align="center">
+
+<img src="README.assets/zsxq.jpg" width="200" /></td></tr>
+<tr><td align="center">
+
+Email</td><td align="center">
+
+tewbooaththb@hotmail.com</td></tr>
+</table>
 
 ---
 
