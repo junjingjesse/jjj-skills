@@ -24,12 +24,12 @@
 
 微信公众号</td><td align="center">
 
-<img src="README.assets/GZH-QRcode.jpg" width="200" /></td></tr>
+<img src="README.assets/GZH-QRcode.jpg" width="500" /></td></tr>
 <tr><td align="center">
 
 知识星球</td><td align="center">
 
-<img src="README.assets/zsxq.jpg" width="200" /></td></tr>
+<img src="README.assets/zsxq.jpg" width="500" /></td></tr>
 <tr><td align="center">
 
 Email</td><td align="center">
