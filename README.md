@@ -21,8 +21,8 @@
 
 | 平台 | 联系方式 |
 |------|---------|
-| 微信公众号 | ![GZH-QRcode](README.assets/GZH-QRcode.jpg) |
-| 知识星球 | ![zsxq](README.assets/zsxq.jpg) |
+| 微信公众号 | <img src="README.assets/GZH-QRcode.jpg" width="150" /> |
+| 知识星球 | <img src="README.assets/zsxq.jpg" width="150" /> |
 | Email | tewbooaththb@hotmail.com |
 
 ---
