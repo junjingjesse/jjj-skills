@@ -2,6 +2,33 @@
 
 我的 Claude Code 技能集，源自 50+ 专项课程的经验压缩。
 
+---
+
+## 关于我
+
+独立开发者，专注于出海Seo，AI 工作流自动化与效率系统构建。
+
+- 🔧 擅长：将复杂流程封装为可复用的技能
+- 📈 方向：SEO 关键词研究、内容策略
+- 🎯 目标：让 AI 成为真正的生产力伙伴
+
+## 出海Seo成果
+
+- 
+- 信息量过于庞大，一边梳理一边填入ing
+
+## 联系我
+
+| 平台 | 联系方式 |
+|------|---------|
+| 微信公众号 | ![GZH-QRcode](README.assets/GZH-QRcode.jpg) |
+| 知识星球 | ![zsxq](README.assets/zsxq.jpg) |
+| Email | tewbooaththb@hotmail.com |
+
+---
+
+🤝 欢迎贡献！有问题提 Issue，一起让技能更好用。
+
 ## 安装
 
 ```bash
