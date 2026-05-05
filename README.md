@@ -24,4 +24,5 @@ cp -r jjj-skills/skills/* ~/.claude/skills/
 | [JJJ-seo-kgr-search](./skills/JJJ-seo-kgr-search/) | SEO关键词KGR调研，筛选月搜索量与allintitle比例低的值得做词汇 | kgr搜索、kgr调研 |
 | [JJJ-seo-competitor-analysis](./skills/JJJ-seo-competitor-analysis/) | SEO竞品分析，用关键词分析Google首页竞争对手网站状况 | seo竞争分析、关键词竞争 |
 | [JJJ-seo-painpoint-research](./skills/JJJ-seo-painpoint-research/) | SEO痛点采集，多平台收集用户真实痛点与吐槽 | 痛点采集、用户反馈调研 |
+| [JJJ-seo-trends-verify](./skills/JJJ-seo-trends-verify/) | Google趋势数据验证，检测季节性/趋势方向/地域分布 | 趋势验证、谷歌趋势 |
 
