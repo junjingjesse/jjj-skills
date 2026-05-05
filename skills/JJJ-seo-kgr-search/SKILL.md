@@ -91,12 +91,20 @@ curl -s -X POST http://localhost:8000/api/v1/keywords/search \
 ```
 
 ### 返回字段说明
-- `keyword`: 关键词
-- `search_volume_28d`: 28天搜索量（月搜索量）
-- `difficulty`: 关键词难度 (0-100)
-- `cpc`: 每次点击成本
-- `intent`: 搜索意图
-- `leader_domain`: 领先域名
+
+**API总计返回 16 个字段**，为避免输出歧义，我们只取其中 6 个显示：
+
+| 显示字段 | 说明 |
+|----------|------|
+| keyword | 关键词 |
+| search_volume_28d | 28天搜索量（月搜索量） |
+| difficulty | 关键词难度 (0-100) |
+| cpc | 每次点击成本 |
+| intent | 搜索意图 |
+| leader_domain | 领先域名 |
+
+**未显示字段**（如需扩展可添加）：
+- id, avg_volume, year_trend, zero_click_percentage, filename, file_date, file_time, main_keyword, created_at, updated_at
 
 ---
 
